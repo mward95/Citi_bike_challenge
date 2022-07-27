@@ -154,4 +154,6 @@ Your final product will be assessed on the following metrics:
 
 https://datacarpentry.org/python-socialsci/11-joins/index.html
 
+https://www.projectpro.io/recipes/save-pandas-dataframe-as-csv-file
+
 © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
