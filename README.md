@@ -24,7 +24,7 @@ During the Summer of 2016 females would ride for longer duration and distances o
 
 ![image](https://i.gyazo.com/80fd39e05001946365438f3c31573893.png)
 
-During the Summer of 2016 in New Jersey the most common user was a subscriber and second was your customer type. Now based on gender males where more likely to use the bike service compared to females.
+During the Summer of 2016 in Jersey City the most common user was a subscriber and second was your customer type. Now based on gender males where more likely to use the bike service compared to females. For males the most common start and end location was Grove St Path.For Females as well the most common start and end location was Grove St Path.
 
 
 3. Create <mark>one</mark> of the following visualizations for city officials:
