@@ -1,0 +1,6 @@
+1.Which gender on average would have a longer bike distance and duration?
+	During the Summer of 2016 females would ride for longer duration and distances on average comapred to males at all ages except age 71 where males took the lead on for duration and distance. The females ages 24 biked for the longest duration and distance.
+2.What are the most popular Start and End sattions based of user type and gender?
+	During the Summer of 2016 in Jersey City the most common user was a subscriber and second was your customer type. Now based on gender males where more likely to use the bike service compared to females. For males the most common start and end location was Grove St Path.For Females as well the most common start and end location was Grove St Path.
+3.Popular Start and End locations for city officals
+	During the Summer of 2016 the most popular start location is Grove St Path at 9026 users and the most popular end location is Grove St path at 11,313 users.
