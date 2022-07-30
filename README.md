@@ -1,21 +1,6 @@
-# Citi_bike_challenge
 # Unit 18 Homework: Citi Bike Analytics
 
-## Before You Begin
-
-* Save this assignment to your <mark>Tableau Public account rather than GitHub. </mark>
-
-* <mark>If you haven't already, make sure to create a Tableau Public [account] (https://public.tableau.com/s/).</mark>
-
-* The free tier of Tableau only lets you save to their public server. So, each time you save your file, it will be uploaded to your Tableau Public profile. 
-
-* You can load and continue working on the same workbook.
-
-* When you finish your assignment, you will submit the URL to your Tableau Public workbook along with any additional files used in your analysis. 
-
 ## Background
-
-![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
 
 Congratulations on your new job! As the new lead analyst for the [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike-sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
 
@@ -23,55 +8,32 @@ Since 2013, the Citi Bike Program has implemented a robust infrastructure for co
 
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
 
+
+
 ## Instructions
+In this data we will be looking at the Jersey City bike locations during the Summer months (June, July, August)
+1. Which gender on average would have a longer bike distance and duration?
 
-Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.
+![image](https://i.gyazo.com/349491891cce085f338718beb5130f3a.png)
 
-1. Design <mark>2–5 visualizations for each discovered phenomenon (4–10 total)</mark>. You may work with a <mark>timespan of your choosing</mark>. Optionally, you can also merge multiple datasets from different periods.
+During the Summer of 2016 females would ride for longer duration and distances on average comapred to males at all ages except age 71 where males took the lead on for duration and distance. The females ages 24 biked for the longest duration and distance.
 
-The following are questions you <mark>may</mark> wish to answer. <mark>Do not limit</mark> yourself to these questions; they are suggestions for a starting point. Be creative!
+2. What are the most popular Start and End sattions based of user type and gender? 
 
-* How many trips have been recorded in total during the chosen period?
+![image](https://i.gyazo.com/80fd39e05001946365438f3c31573893.png)
 
-* By what percentage has total ridership grown?
+During the Summer of 2016 in New Jersey the most common user was a subscriber and second was your customer type. Now based on gender males where more likely to use the bike service compared to females.
 
-* How have the proportions of short-term customers and annual subscribers changed?
-
-* What are the peak hours when bikes are used during the summer months?
-
-* What are the peak hours when bikes are used during the winter months?
-
-* Today, what are the top 10 stations in the city for starting a journey? Based on data, why do you hypothesize these are the top locations?
-
-* Today, what are the top 10 stations in the city for ending a journey? Based on data, why?
-
-* Today, what are the bottom 10 stations in the city for starting a journey? Based on data, why?
-
-* Today, what are the bottom 10 stations in the city for ending a journey? Based on data, why?
-
-* How does the average trip duration change by age?
-
-* What is the average distance in miles for a bike trip?
-
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-
-* How variable is the utilization by bike ID?
-
-2. Use your visualizations (not necessarily all of them) to <mark>design a dashboard for each phenomenon</mark>. The dashboards should be accompanied by an analysis explaining why the phenomenon may be occurring. 
 
 3. Create <mark>one</mark> of the following visualizations for city officials:
 
 * **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey, with zip code data overlaid on top.
 
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
+Popular Start and End locations for city officals
 
-* The map you choose should also be accompanied by a write-up describing any trends that were noticed during your analysis.
+![image](https://i.gyazo.com/570520feb9fa8eaa7304f85553ed11d4.png)
 
-4. Create your final presentation.
-
-    * Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-
-    * Ensure your presentation is professional, logical, and visually appealing. 
+During the Summer of 2016 the most popular start location is Grove St Path at 9026 users and the most popular end location is Grove St path at 11,313 users.
 
 ## Considerations
 
@@ -88,23 +50,6 @@ The following are questions you <mark>may</mark> wish to answer. <mark>Do not li
   * 1 story 
   * A text or markdown file with your analysis of the phenomena you uncovered in the data.
 
-## Sharing Your Work
-
-To share your work, we are asking that you save your workbook as a `.twb`x file so your TAs can grade them.
-
-~~To save your workbook as a .twbx file, select "Save As..." from the "File" drop-down. Then, select the .twbx option.~~
-
-* <mark>Publish your workbook to the Tableau Public server, </mark>
-* <mark>then go to https://public.tableau.com/ and log into your account</mark>
-* <mark>click on your icon in the top right corner and choose My Profile. </mark>
-* <mark>Click on the Viz you want to turn in to open it.  </mark>
-* <mark>In the upper right corner click on the download icon, </mark>
-* <mark>choose Tableau Workbook file format.  </mark>
-* <mark>In the Download Tableau Workbook pop-up, </mark>
-* <mark>leave Version as Current and click Download.  </mark>
-* <mark>It will download a .twbx file to your Downloads folder. </mark> 
-* <mark>Upload this file to Github or Google Drive and submit the link to your repository/folder on Bootcampspot.</mark>
-
 
 ## Assessment
 
@@ -116,32 +61,6 @@ Your final product will be assessed on the following metrics:
 
 * Visual Appeal
 
-
-## Hints
-
-* You may need to get creative with how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works, and go with it.
-
-* <mark>Don't assume that the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can interfere with your analysis. Ensure that your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).</mark> Note: Gender
-
-* Consider building your visualizations with small extracts of the data (like single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't answer anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their “need to know” and the importance of not "cramming in everything.” Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual storytelling. The Citi Bike program has a clear visual style. As a suggestion, look for ways to have your data visualizations match their aesthetic.
-
-* Pay attention to labels. What exactly is "time duration?” What's the value of "age of birth?” You will almost certainly need calculated fields to get what you need.
-
-* Look for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information, like socioeconomic or geographic data. Tableau has a map "layer" feature that you may find helpful.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered everything that you’ll need &mdash; so keep an eye out for new tricks!
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
 
 
 ## Rubric
